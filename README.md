@@ -176,3 +176,21 @@ You can override these values in `server/.env`.
 - Student data is stored in SQLite at [`database/db.sqlite`](/Users/sohamdawn/Documents/Web%20Dev%20Project/college-reminder-system/database/db.sqlite).
 - Logging out only clears the session token in the browser. Reminders, timetable entries, and goals remain in the database until the user deletes them.
 - The student dashboard routes are `/dashboard/reminders`, `/dashboard/timetable`, and `/dashboard/goals`.
+
+
+
+## Screenshots
+
+### Login Page
+![Login Page](screenshots/Loginpage.png)
+
+### Project Screenshots
+![Screenshot 1](screenshots/Screenshot%202026-06-01%20at%208.46.37PM.png)
+
+![Screenshot 2](screenshots/Screenshot%202026-06-01%20at%208.46.38PM.png)
+
+![Screenshot 3](screenshots/Screenshot%202026-06-01%20at%208.46.54PM.png)
+
+![Screenshot 4](screenshots/Screenshot%202026-06-01%20at%208.47.55PM.png)
+
+![Screenshot 5](screenshots/Screenshot%202026-06-01%20at%208.48.38PM.png)
