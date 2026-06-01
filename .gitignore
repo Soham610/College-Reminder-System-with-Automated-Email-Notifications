@@ -1,0 +1,9 @@
+node_modules
+client/node_modules
+server/node_modules
+client/dist
+.DS_Store
+server/.env
+server/.vtop-browser
+database/db.sqlite-shm
+database/db.sqlite-wal
