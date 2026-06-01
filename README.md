@@ -2,88 +2,104 @@
 
 College Reminder System is a full-stack academic planner with separate student and admin access. The project uses React with Vite on the frontend, Express on the backend, and SQLite for persistent storage, so reminders, timetable data, and goals stay available after refresh and after logging out.
 
-## Features
+## 🚀 Features
 
-- Separate student and admin login flows
-- Student signup and login with JWT authentication
-- Seeded admin login for administration access
-- Isolated student sections for reminders, timetable, and goals
-- Persistent reminder storage with add, edit, delete, and view support
-- Interactive timetable with clickable days from Monday to Sunday
-- Daily goals with active/completed sections, completion checkboxes, deadline handling, and overdue actions
-- Midnight goal summary generation with email delivery when SMTP is configured, otherwise simulated delivery saved in the app
-- Admin tools for student management, reminder moderation, and announcements
-- Clean academic UI with card-based layout and responsive screens
+### 👨‍🎓 Student Module
+- Secure JWT Authentication
+- Student Registration & Login
+- Reminder Management (Add, Edit, Delete)
+- Timetable Management
+- Goal Tracking System
+- Daily Productivity Dashboard
+- Dark Mode Support
+- Persistent Data Storage
 
-## Tech Stack
+### 👨‍💼 Admin Module
+- Admin Authentication
+- Student Management
+- Reminder Moderation
+- Announcement Management
+- System Monitoring Dashboard
 
-- Frontend: React, Vite, React Router, CSS
-- Backend: Node.js, Express
-- Database: SQLite via `better-sqlite3`
-- Auth: JWT + bcrypt
+### 📧 Automation Features
+- Automated Email Notifications
+- Goal Summary Emails
+- Reminder Alerts
+- Scheduled Notification Services
 
-## Project Structure
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- React Router
+- CSS3
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- SQLite
+
+### Authentication
+- JWT (JSON Web Token)
+
+### Additional Services
+- Nodemailer
+- REST APIs
+
+## 📂 Project Structure
 
 ```text
-/college-reminder-system
-├── /client
-│   ├── /components
-│   ├── /pages
-│   └── /services
-├── /server
-│   ├── /routes
-│   ├── /controllers
-│   ├── /models
-│   ├── /services
-│   └── /utils
-├── /database
-│   └── db.sqlite
-└── README.md
+College-Reminder-System
+│
+├── client/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── server/
+│   ├── controllers/
+│   ├── routes/
+│   ├── middleware/
+│   ├── models/
+│   └── services/
+│
+├── database/
+│
+└── screenshots/
 ```
 
-## Setup
+## ⚙️ Installation
 
-### 1. Install dependencies
+### Clone Repository
 
-From the project root:
+```bash
+git clone https://github.com/Soham610/College-Reminder-System-with-Automated-Email-Notifications.git
+```
+
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Configure the server
-
-Copy the example environment file and adjust values if needed:
+### Frontend
 
 ```bash
-cd server
-cp .env.example .env
-cd ..
-```
-
-### 3. Start the full stack in development mode
-
-From the project root:
-
-```bash
+cd client
+npm install
 npm run dev
 ```
 
-This starts:
-
-- React client on `http://localhost:5173`
-- Express server on `http://localhost:5001`
-
-### 4. Start the backend only
+### Backend
 
 ```bash
-npm run server
-```
-
-### 5. Start the frontend only
-
-```bash
-npm run client
+cd server
+npm install
+npm start
 ```
 
 ## Email Notifications
@@ -145,31 +161,32 @@ The backend seeds an admin account automatically on first run:
 
 You can override these values in `server/.env`.
 
-## API Endpoints
+## 📡 API Highlights
 
-- `POST /api/signup`
-- `POST /api/login`
-- `POST /api/admin/login`
-- `GET /api/reminders`
-- `POST /api/reminders`
-- `PUT /api/reminders/:id`
-- `DELETE /api/reminders/:id`
-- `GET /api/timetable`
-- `POST /api/timetable`
-- `PUT /api/timetable/:id`
-- `DELETE /api/timetable/:id`
-- `GET /api/goals`
-- `POST /api/goals`
-- `PUT /api/goals/:id`
-- `PATCH /api/goals/:id/state`
-- `DELETE /api/goals/:id`
-- `GET /api/users`
-- `GET /api/admin/reminders`
-- `PUT /api/admin/reminders/:id`
-- `DELETE /api/admin/reminders/:id`
-- `DELETE /api/admin/users/:id`
-- `GET /api/announcements`
-- `POST /api/announcements`
+### Authentication
+
+```http
+POST /api/auth/signup
+POST /api/auth/login
+```
+
+### Reminders
+
+```http
+GET /api/reminders
+POST /api/reminders
+PUT /api/reminders/:id
+DELETE /api/reminders/:id
+```
+
+### Timetable
+
+```http
+GET /api/timetable
+POST /api/timetable
+PUT /api/timetable/:id
+DELETE /api/timetable/:id
+```
 
 ## Usage Notes
 
@@ -227,3 +244,50 @@ You can override these values in `server/.env`.
 ![Screenshot 14](screenshots/scrrenshot14.png)
 
 ![Screenshot 15](screenshots/scrrenshot15.png)
+
+
+
+
+## 🔐 Authentication Flow
+
+1. User Registration
+2. Secure Login
+3. JWT Token Generation
+4. Protected Routes
+5. Session Management
+
+
+
+
+## 🎯 Future Improvements
+
+- Mobile Application
+- Google Calendar Integration
+- AI-based Study Planner
+- Smart Reminder Recommendations
+- Cloud Database Deployment
+- Multi-user Collaboration
+
+---
+
+## 📈 Learning Outcomes
+
+This project helped me gain hands-on experience in:
+
+- Full Stack Web Development
+- REST API Development
+- Authentication & Authorization
+- Database Management
+- Email Automation
+- React State Management
+- Backend Architecture Design
+
+---
+
+## 👨‍💻 Author
+
+**Soham Dawn**
+
+B.Tech CSE (AI & ML)
+
+GitHub: https://github.com/Soham610
