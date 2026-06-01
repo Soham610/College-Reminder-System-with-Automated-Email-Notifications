@@ -184,13 +184,46 @@ You can override these values in `server/.env`.
 ### Login Page
 ![Login Page](screenshots/Loginpage.png)
 
-### Project Screenshots
-![Screenshot 1](screenshots/Screenshot%202026-06-01%20at%208.46.37PM.png)
+### Dashboard
+![Dashboard](screenshots/dashboardpage.png)
 
-![Screenshot 2](screenshots/Screenshot%202026-06-01%20at%208.46.38PM.png)
+### Admin Dashboard
+![Admin Dashboard](screenshots/adminpage.png)
 
-![Screenshot 3](screenshots/Screenshot%202026-06-01%20at%208.46.54PM.png)
+### Dark Mode
+![Dark Mode](screenshots/darkmode.png)
 
-![Screenshot 4](screenshots/Screenshot%202026-06-01%20at%208.47.55PM.png)
+### Add Reminder
+![Add Reminder](screenshots/addreminderspage.png)
 
-![Screenshot 5](screenshots/Screenshot%202026-06-01%20at%208.48.38PM.png)
+### More Screenshots
+
+![Screenshot 1](screenshots/scrrenshot1.png)
+
+![Screenshot 2](screenshots/scrrenshot2.png)
+
+![Screenshot 3](screenshots/scrrenshot3.png)
+
+![Screenshot 4](screenshots/scrrenshot4.png)
+
+![Screenshot 5](screenshots/scrrenshot5.png)
+
+![Screenshot 6](screenshots/scrrenshot6.png)
+
+![Screenshot 7](screenshots/scrrenshot7.png)
+
+![Screenshot 8](screenshots/scrrenshot8.png)
+
+![Screenshot 9](screenshots/scrrenshot9.png)
+
+![Screenshot 10](screenshots/scrrenshot10.png)
+
+![Screenshot 11](screenshots/scrrenshot11.png)
+
+![Screenshot 12](screenshots/scrrenshot12.png)
+
+![Screenshot 13](screenshots/scrrenshot13.png)
+
+![Screenshot 14](screenshots/scrrenshot14.png)
+
+![Screenshot 15](screenshots/scrrenshot15.png)
