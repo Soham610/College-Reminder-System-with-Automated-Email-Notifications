@@ -1,6 +1,18 @@
-# College Reminder System
+# 🎓 College Reminder System
 
-College Reminder System is a full-stack academic planner with separate student and admin access. The project uses React with Vite on the frontend, Express on the backend, and SQLite for persistent storage, so reminders, timetable data, and goals stay available after refresh and after logging out.
+College Reminder System is a full-stack academic planner with separate student and admin access. The project uses React with Vite on the frontend, Express on the backend, and SQLite for persistent storage, so reminders, timetable data, and goals stay available after refresh and after logging out. A full-stack academic productivity platform with automated email notifications, timetable management, goal tracking, reminders, and dedicated student/admin dashboards.
+
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
+![Express](https://img.shields.io/badge/Framework-Express-black)
+![SQLite](https://img.shields.io/badge/Database-SQLite-lightblue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+
+## 🌐 Live Demo
+
+Coming Soon
+
 
 ## 🚀 Features
 
@@ -154,10 +166,7 @@ For Gmail, use an App Password rather than your normal password.
 
 ## Default Admin Account
 
-The backend seeds an admin account automatically on first run:
-
-- Email: `admin@college.edu`
-- Password: `Admin@123`
+Default admin credentials can be configured through environment variables.
 
 You can override these values in `server/.env`.
 
@@ -193,6 +202,17 @@ DELETE /api/timetable/:id
 - Student data is stored in SQLite at [`database/db.sqlite`](/Users/sohamdawn/Documents/Web%20Dev%20Project/college-reminder-system/database/db.sqlite).
 - Logging out only clears the session token in the browser. Reminders, timetable entries, and goals remain in the database until the user deletes them.
 - The student dashboard routes are `/dashboard/reminders`, `/dashboard/timetable`, and `/dashboard/goals`.
+
+
+## ⭐ Key Highlights
+
+- Full Stack MERN-style Architecture
+- JWT Authentication & Authorization
+- Automated Email Reminder System
+- Admin Dashboard with User Management
+- Responsive UI with Dark Mode
+- SQLite Database Integration
+- RESTful API Design
 
 
 
@@ -291,3 +311,11 @@ This project helped me gain hands-on experience in:
 B.Tech CSE (AI & ML)
 
 GitHub: https://github.com/Soham610
+
+
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
+
+Made with ❤️ by Soham Dawn
